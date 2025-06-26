@@ -1,5 +1,5 @@
-import ChangePassword from "./changePassword"
-import DeleteAccount from "./deleteAccount"
+import ChangePassword from "./ChangePassword"
+import DeleteAccount from "./DeleteAccount"
 import UpdateProfile from "./UpdateProfile"
 import UploadPicture from "./UploadPicture"
 
