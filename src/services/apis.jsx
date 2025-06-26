@@ -1,4 +1,4 @@
-const REACT_APP_BASE_URL = "http://localhost:4000/api/v1";
+const REACT_APP_BASE_URL = "https://studynotion-4hsu.onrender.com/api/v1";
 const BASE_URL = REACT_APP_BASE_URL;
 
 //auth endpoints
