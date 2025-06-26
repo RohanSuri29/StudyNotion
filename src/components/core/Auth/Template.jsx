@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 import Spinner from "../../common/Spinner";
 import frameImg from "../../../assets/Images/frame.png"
 import LoginForm from "./LoginForm";
-import SignUpForm from "./signUpForm";
+import SignUpForm from "./SignUpForm";
 
 function Template(props) {
 
