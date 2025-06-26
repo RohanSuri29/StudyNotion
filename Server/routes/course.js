@@ -5,7 +5,7 @@ const router = express.Router();
 const authentication = require('../middlewares/Authentication');
 const instructorHandler = require('../middlewares/IsInstructor');
 const isStudent = require('../middlewares/IsStudent');
-const adminHandler = require('../middlewares/isAdmin');
+const adminHandler = require('../middlewares/IsAdmin');
 
 //importing courses
 const {createCourse , getAllCourses , getCourseDetails , getInstructorCourses , deleteCourse, editCourse, getFullCourseDetails} = require('../controllers/Course');
