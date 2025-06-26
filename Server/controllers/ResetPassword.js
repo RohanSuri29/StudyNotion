@@ -31,7 +31,7 @@ exports.resetPasswordToken = async (req , res) => {
 
         const updatedDetails = await User.findOneAndUpdate({email} , {token: token , resetPasswordExpires: Date.now() + 5*60*1000} , {new:true});
 
-        const url = `http://localhost:3000/update-password/${token}`
+        const url = `https://study-notion-fawn-eight.vercel.app/update-password/${token}`
 
         await mailSender(email , "Request to reset Password" , resetPasswordTemplate(`${url}` , `${user.firstName} ${user.lastName}`));
 

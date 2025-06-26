@@ -25,7 +25,7 @@ app.use(fileUpload({
     tempFileDir: "/tmp/"
 }));
 app.use(cors({                                  //--> using this middleware so that our backend can entertain the request coming from the frontend
-    origin:"http://localhost:3000"
+    origin:"https://study-notion-fawn-eight.vercel.app"
 }));
 
 //activating server at port 
