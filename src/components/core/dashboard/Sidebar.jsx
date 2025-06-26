@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { sidebarLinks } from "../../../data/Dashboard-Link"
-import SidebarLink from  "../Dashboard/SidebarLink"
+import SidebarLink from "./SidebarLink";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { logout } from "../../../services/Operations/authAPI";
